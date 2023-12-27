@@ -1,0 +1,21 @@
+new 0
+new 1
+new 1
+new 0
+new 0
+output_str Вы ввели номер Фибоначчи--
+input_per 1
+
+:begin
+poka< 7 1
+put_sum 9 3 5
+put 3 5
+put 5 9
+add1 7
+jump begin
+
+:result
+output_str Значение этого элемента--
+output_per 5
+
+error output_str |Ошибка!|
